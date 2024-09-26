@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    scrollbar-color: rgb(36, 60, 70) #222;
+}
+
+body{
+    background-color: rgb(19,31,36);
+    color:white;
+    font-family: "Feather Bold";
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin-top:2%;
+    
+
+}
+
+.one,.two,.three{
+    margin-right: 40%;
+  position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  border-radius: 50%;
+    width: 2.5%;
+    height:2ch;
+    padding:15px;
+    
+}
+
+.one{
+
+        border:5px solid yellow;
+ 
+}
+
+.two{
+    border:5px solid gray;
+}
+
+.three{
+    border:5px solid burlywood;
+}
+
+.opinions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:5px;
+    margin-top: 5px;
+}
+
+.opinions h5{
+background-color: rgba(36, 62, 73, 0.904);
+padding: 4px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+}
+
+.caption{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:30%;
+    height:10ch;
+    border: 2px solid rgb(55, 70, 79);
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.share{
+    font-size: 15px;
+    color:rgb(247, 67, 48);
+    position:absolute;
+    margin-left:9%;
+    margin-top: -2%;
+}
+
+
+
+.image{
+    transition: transform 0.55s ease;
+    position: absolute;
+    margin-left: -19%;
+    width: 5%;
+    height:5.7ch;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.title{
+    color:salmon;
+    -webkit-text-stroke: 2px rgb(248, 97, 80);
+    &:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+}
+
+.TitleBest{
+    font-size: 28px;
+    margin-top: 2%;
+    transition: all ease 1s;
+    &:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }   
+    
+}
+
+.change{
+    margin-top: 1%;
+}
+
+.change a{
+    color:rgb(55, 128, 173);
+    background-color: rgb(25, 37, 43);
+    border: 2px solid rgb(36, 60, 70);
+    padding:5px;
+    text-decoration: none;
+}
+
+.change a:first-child{
+    border-start-start-radius: 20px;
+}
+
+.change a:nth-child(3){
+    border-start-end-radius: 20px;
+}
+
+.name:hover{
+  
+    cursor:pointer;
+    text-decoration: underline;
+
+}
+
+.buttons,a{
+    color:rgb(216, 216, 52);
+    flex-direction: row;
+    font-size: 22px;
+    gap:10px;
+
+}
+
+.credits{
+    margin-top: 2%;
+    background-color: rgb(27, 42, 49); 
+    padding:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.reds{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+gap:20px;
+}
+
+@media (width <= 1306px){
+    .share{
+        margin-left:10%;
+        margin-top: -2.7%;
+    }
+   .caption img{
+    width:5%;
+    height: 5ch;
+    margin-right: 2%;
+   }
+  }
+
+  @media (width <= 1150px){
+
+    .one{
+        margin-right: 48%;
+        width:3%;
+    }
+    .two{
+        margin-right: 48%;
+        width:3%;
+    }
+    .three{
+        margin-right: 48%;
+        width:3%;
+    }
+
+    .share{
+        margin-left:13%;
+        margin-top: -3%;
+    }
+    .caption{
+        width:34%;
+    }
+    .caption img{
+     width:6%;
+     height: 5ch;
+     margin-right: 6%;
+    }
+   }
+
+   @media (width <= 978px){
+    .one{
+        margin-right: 54%;
+        width:3%;
+    }
+    .two{
+        margin-right: 54%;
+        width:3%;
+    }
+    .three{
+        margin-right: 54%;
+        width:3%;
+    }
+    .share{
+        margin-left:13%;
+        margin-top: -3%;
+    }
+    .caption{
+        width:41%;
+    }
+    .caption img{
+     width:7%;
+     height:5.5ch;
+     margin-right: 10%;
+    }
+   }
+
+   @media (width <= 889px){
+    
+    .share{
+        margin-left:14%;
+        margin-top: -3%;
+    }
+    .caption img{
+     width:7%;
+     height:5ch;
+     margin-right: 11%;
+    }
+   }
+
+   @media (width <= 788px){
+    
+   .container h4,h1{
+    font-size: 18px;
+   }
+
+   .one{
+    margin-right: 60%;
+    width:4%;
+}
+.two{
+    margin-right: 60%;
+    width:4%;
+}
+.three{
+    margin-right: 60%;
+    width:4%;
+}
+.share{
+    margin-left:12%;
+    margin-top: -4%;
+    font-size: 12px;
+    
+}
+.caption{
+    width:45%;
+}
+   
+    .caption img{
+     width:7%;
+     height:5ch;
+     margin-right: 15%;
+    }
+   }
+ 
+   @media (width <= 766px){
+
+    .one{
+        margin-right: 63%;
+        width:4%;
+    }
+    .two{
+        margin-right: 63%;
+        width:4%;
+    }
+    .three{
+        margin-right: 63%;
+        width:4%;
+    }
+    .share{
+        margin-left:13%;
+        margin-top: -4%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:48%;
+    }
+
+    .caption img{
+        width:8%;
+        height:5ch;
+        margin-right: 19%;
+       }
+   }
+
+   @media (width <= 676px){
+
+    .one{
+        margin-right: 67%;
+        width:4%;
+    }
+    .two{
+        margin-right: 67%;
+        width:4%;
+    }
+    .three{
+        margin-right: 67%;
+        width:4%;
+    }
+    .share{
+        margin-left:14%;
+        margin-top: -4.5%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:52%;
+    }
+
+    .caption img{
+        width:8%;
+        height:4.6ch;
+        margin-right: 22%;
+       }
+   }
+
+   @media (width <= 626px){
+
+ h1,h4{
+    font-size: 16px;
+  }
+
+    .one{
+        margin-right: 72%;
+        width:5%;
+    }
+    .two{
+        margin-right: 72%;
+        width:5%;
+    }
+    .three{
+        margin-right: 72%;
+        width:5%;
+    }
+    .share{
+        margin-left:15%;
+        margin-top: -5%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:55%;
+    }
+
+    .caption img{
+        width:8%;
+        height:4.6ch;
+        margin-right: 24%;
+       }
+   }
+
+
+   @media (width <= 626px){
+
+    .one{
+        margin-right: 74%;
+        width:5%;
+    }
+    .two{
+        margin-right: 74%;
+        width:5%;
+    }
+    .three{
+        margin-right: 74%;
+        width:5%;
+    }
+    .share{
+        margin-left:15%;
+        margin-top: -5%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:56%;
+    }
+
+    .caption img{
+        width:9%;
+        height:4.3ch;
+        margin-right: 26%;
+       }
+   }
+
+   @media (width <= 572px){
+
+    .one{
+        margin-right: 76%;
+        width:5%;
+    }
+    .two{
+        margin-right: 76%;
+        width:5%;
+    }
+    .three{
+        margin-right: 76%;
+        width:5%;
+    }
+    .share{
+        margin-left:16%;
+        margin-top: -5.7%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:60%;
+    }
+
+    .caption img{
+        width: 9%;
+        height:4ch;
+        margin-right: 28%;
+       }
+   }
+
+   @media (width <= 532px){
+
+    .one{
+        margin-right: 81%;
+        width:5%;
+    }
+    .two{
+        margin-right: 81%;
+        width:5%;
+    }
+    .three{
+        margin-right: 81%;
+        width:5%;
+    }
+    .share{
+        margin-left:17%;
+        margin-top: -6.1%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:64%;
+    }
+
+    .caption img{
+        width: 10%;
+        height:4.2ch;
+        margin-right: 32%;
+       }
+   }
+
+   @media (width <= 495px){
+
+    .one{
+        display: none;
+    }
+    .two{
+      display: none;
+    }
+    .three{
+        display: none;
+    }
+    .share{
+        margin-left:18%;
+        margin-top: -6.8%;
+        font-size: 12px;
+        
+    }
+
+    .caption{
+        width:77%;
+    }
+
+    .caption img{
+        width: 12%;
+        height:5ch;
+        margin-right: 40%;
+       }
+   }
+
+   @media (width <= 446px){
+
+    .share{
+        margin-left:19%;
+        margin-top: -7%;
+        font-size: 10px;
+        
+    }
+
+    .caption{
+        width:82%;
+    }
+
+    .caption img{
+        width: 13%;
+        height:5ch;
+        margin-right: 46%;
+       }
+   }
+
+   @media (width <= 410px){
+
+    .share{
+        margin-left:20%;
+        margin-top: -7.6%;
+        font-size: 11px;
+        
+    }
+
+    .caption{
+        width:86%;
+    }
+
+    .caption img{
+        width: 14%;
+        height:5ch;
+        margin-right: 49%;
+       }
+   }
+
+   @media (width <= 375px){
+
+    .share{
+        margin-left:22%;
+        margin-top: -8.3%;
+        font-size: 11px;
+        
+    }
+
+    .caption{
+        width:96%;
+    }
+
+    .caption img{
+        width: 15%;
+        height:5.1ch;
+        margin-right: 55%;
+       }
+   }
+
+
+
+

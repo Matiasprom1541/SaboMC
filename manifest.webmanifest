@@ -1,0 +1,16 @@
+{
+    "lang": "es",
+    "dir": "ltr",
+    "name": "SaboMC pagina",
+    "short_name": "SaboMC",
+    "icons": [
+      { "src": "icon-64x64.webp", "sizes": "64x64", "type": "images/sabomc2.png" },
+      { "src": "icon-128x128.png", "sizes": "128x128" }
+    ],
+    "id": "SaboMC",
+    "start_url": "/Home.html",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "background_color": "rgb(25, 37, 43);",
+    "theme_color": "white"
+  }
